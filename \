@@ -32,12 +32,7 @@ const extractedData = {
   time: cleanText.match(patterns.time) || []
 };
 
-// ✅ Print output to terminal
-console.log("Extracted Data:");
-console.log(JSON.stringify(extractedData, null, 2));
-
 // Save output to JSON file
 fs.writeFileSync("output.json", JSON.stringify(extractedData, null, 2));
 
-console.log("Extraction completed successfully.");
-
+Console.log(JSON.stringify(result, null, 2);

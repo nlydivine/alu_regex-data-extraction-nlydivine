@@ -1,18 +1,26 @@
-# Regex Data Extraction Assignment
+# Regex Data Extraction and Secure Validation (JavaScript)
 
-This is my assignment for extracting structured data from messy text using JavaScript and regular expressions.
+This project is a JavaScript program that extracts structured information from raw text using regular expressions. The input text simulates data returned from an external API and includes realistic variations and some unsafe content.
 
 ## What the program does
-- Reads text from `input.txt`, which simulates messy real-world data.
-- Extracts:
-  - Emails
+- Reads raw text from `input.txt`
+- Uses regular expressions to extract:
+  - Email addresses
   - URLs
   - Phone numbers
-  - Credit card numbers (masked for security)
-  - Time (12-hour and 24-hour formats)
-- Ignores malicious input like scripts or SQL injections.
-- Saves the cleaned and structured results in `output.json`.
+  - Credit card numbers
+  - Time values (12-hour and 24-hour formats)
+- Removes obvious malicious or unsafe input
+- Masks sensitive data such as credit card numbers
+- Prints the extracted data in the terminal
+- Saves the results in both JSON and text formats
 
-## How to run
-1. Make sure `index.js` and `input.txt` are in the same folder.
-2. Run the program using Node.js
+## Project files
+- `index.js` – main JavaScript file with regex extraction and validation logic
+- `input.txt` – sample raw text with realistic data and variations
+- `output.json` – structured output in JSON format
+- `output.txt` – human-readable version of the extracted results
+- `README.md` – project documentation
+
+## How to run the program
+Make sure Node.js is available, then run
