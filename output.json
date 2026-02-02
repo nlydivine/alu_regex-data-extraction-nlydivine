@@ -1,0 +1,21 @@
+{
+  "emails": [
+    "lydivine.mukamana@gmail.com",
+    "helpdesk@campus-support.edu",
+    "admin@test.com"
+  ],
+  "urls": [
+    "https://lydivine-portfolio.dev/projects"
+  ],
+  "phones": [
+    "078-123-4567",
+    "123.456.7890"
+  ],
+  "creditCards": [
+    "4111 1111 1111 1111"
+  ],
+  "time": [
+    "09:00",
+    "4:20"
+  ]
+}

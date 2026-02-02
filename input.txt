@@ -1,0 +1,24 @@
+Student contact information:
+Main email: lydivine.mukamana@gmail.com
+Support email: helpdesk@campus-support.edu
+
+Personal website:
+https://lydivine-portfolio.dev/projects
+
+Phone numbers used:
+078-123-4567
+(250) 788 456-901
+123.456.7890
+
+Payment test data:
+Card number used for testing: 4111 1111 1111 1111
+
+Meeting and class times:
+09:00
+4:20 PM
+
+Invalid and unsafe attempts:
+<script>alert("test")</script>
+admin@test.com OR 1=1
+DROP TABLE students;
+
