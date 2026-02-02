@@ -32,7 +32,7 @@ const extractedData = {
   time: cleanText.match(patterns.time) || []
 };
 
-// ✅ Print output to terminal
+//  Print output to terminal
 console.log("Extracted Data:");
 console.log(JSON.stringify(extractedData, null, 2));
 
